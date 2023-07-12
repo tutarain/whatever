@@ -1,6 +1,6 @@
 baseurl = "https://tutarain.github.io/"
 title = "第四纪地层"
-languageCode = "zh"
+languageCode = "zh-cn"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
@@ -13,13 +13,14 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params]
   description = "Personal blog about everything" # Description of your site
+  copyright = "Tutarain"
   opengraph = true
   twitter_cards = false
   readmore = false # Show "Read more" button in list if true
   authorbox = true
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
-  mainSections = ["post", "docs"]
+  toc = true # Enable Table of Contents
 
 [Params.logo]
   image = "img/placeholder.png"
@@ -40,10 +41,4 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Params.widgets.recent]
   cached = true
 
-menu: main # Add page to a main menu
-
-# Add page to a main, side, and footer menu
-menu:
-  - main
-  - side
-  - footer
+head icon="static/favicon.ico"
