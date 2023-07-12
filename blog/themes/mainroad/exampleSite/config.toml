@@ -1,18 +1,18 @@
-baseurl = "/"
-title = "Mainroad"
-languageCode = "en-us"
+baseurl = "https://tutarain.github.io/"
+title = "第四纪地层"
+languageCode = "zh"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  name = "Tutarain"
+  bio = "It's never too late"
   avatar = "img/avatar.png"
 
 [Params]
-  description = "John Doe's Personal blog about everything" # Description of your site
+  description = "Personal blog about everything" # Description of your site
   opengraph = true
   twitter_cards = false
   readmore = false # Show "Read more" button in list if true
@@ -22,7 +22,9 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   mainSections = ["post", "docs"]
 
 [Params.logo]
-  subtitle = "Just another site" # Logo subtitle
+  image = "img/placeholder.png"
+  title = "第四纪地层"
+  subtitle = "Just soso site" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
